@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
   <title>MenoScreen | Clinical Decision Support</title>
 
@@ -24,22 +25,40 @@
 
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-
   <meta property="og:image:type" content="image/png">
 
-  <!-- Automatic redirect to MenoScreen on Tally -->
-  <meta http-equiv="refresh"
-        content="0; url=https://tally.so/r/OQ4q4g">
-
+  <!-- Custom MenoScreen favicon -->
   <link rel="icon" type="image/png" href="/favicon.png">
-  
+
+  <!-- Full-screen layout -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    .tally-frame {
+      width: 100%;
+      height: 100dvh;
+      border: none;
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
-  <p>Opening MenoScreen...</p>
-  <p>
-    <a href="https://tally.so/r/OQ4q4g">
-      Click here if you are not redirected.
-    </a>
-  </p>
+
+  <!-- Embedded MenoScreen clinical pathway -->
+  <iframe
+    class="tally-frame"
+    src="https://tally.so/embed/OQ4q4g?transparentBackground=1"
+    title="MenoScreen Clinical Decision Support"
+    allow="fullscreen"
+  ></iframe>
+
 </body>
 </html>
