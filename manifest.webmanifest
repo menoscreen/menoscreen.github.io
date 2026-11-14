@@ -11,13 +11,7 @@
   "theme_color": "#A77B86",
   "icons": [
     {
-      "src": "/favicon.png",
-      "sizes": "522x522",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/apple-touch-icon.png",
+      "src": "/apple-touch-icon.png?v=2",
       "sizes": "259x259",
       "type": "image/png",
       "purpose": "any"
