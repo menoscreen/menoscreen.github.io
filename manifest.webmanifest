@@ -12,13 +12,13 @@
   "icons": [
     {
       "src": "/favicon.png",
-      "sizes": "512x512",
+      "sizes": "522x522",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
+      "sizes": "522×521",
       "type": "image/png",
       "purpose": "any"
     }
